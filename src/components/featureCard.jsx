@@ -6,7 +6,7 @@ export default function FeatureCard({
 }) {
   return (
     <article
-      className={`w-1/3 rounded-3xl py-16 px-6 flex flex-col bg-gradient-to-br bg-[#7053ff41] hover:from-[#92e3a960] hover:to-[#25118857] ${
+      className={`w-[90%] m-auto my-8 md:m-0 md:w-1/3 rounded-3xl py-16 px-6 flex flex-col bg-gradient-to-br bg-[#7053ff41] hover:from-[#92e3a960] hover:to-[#25118857] ${
         scale ? "scale-y-105" : ""
       }`}
     >

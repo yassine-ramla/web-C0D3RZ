@@ -3,9 +3,9 @@ import screens from "../assets/images/app-screens.svg";
 
 export default function LandingPage() {
   return (
-    <div className="w-full max-h-[900px] flex gap-x-12 rounded-3xl overflow-x-clip  px-12 py-10 from-[#251188] to-[#92e3a9] bg-gradient-to-br">
-      <div className="w-[40%] flex flex-col justify-between items-start">
-        <header className="w-full h-fit flex items-center gap-x-4">
+    <div className="w-full md:max-h-[900px]  md:flex flex-col md:flex-row gap-x-12 rounded-3xl overflow-x-clip  px-12 py-10 from-[#251188] to-[#92e3a9] bg-gradient-to-br">
+      <div className="md:w-[40%] w-full flex flex-col justify-between items-start">
+        <header className="w-full mb-16 md:mb-8 h-fit flex items-center gap-x-4">
           <a href="#">
             <img src={logo} alt="logo" className="w-20" />
           </a>
@@ -43,7 +43,7 @@ export default function LandingPage() {
         </footer>
       </div>
       <div
-        className={`w-[60%] h-full flex items-center justify-center rotate-[20deg] `}
+        className={`md:w-[60%] md:h-full  flex items-center justify-center rotate-[20deg] `}
       >
         <img src={screens} alt="screens"  className="h-full"/>
       </div>

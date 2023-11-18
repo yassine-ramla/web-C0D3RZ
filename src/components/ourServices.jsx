@@ -15,7 +15,7 @@ export default function OurServices() {
           modern companies major problems and ease their work.
         </p>
       </div>
-      <div className="w-full flex justify-center items-center gap-x-4">
+      <div className="w-full md:flex md:flex-row flex-col justify-center items-center gap-x-4">
         <FeatureCard
           img={integration}
           title="Seamless Integration"

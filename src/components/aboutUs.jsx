@@ -6,7 +6,7 @@ import aboutUs from "../assets/images/about-us.svg";
 export default function AboutUs() {
   return (
     <div
-      className="w-full grid grid-cols-[3fr_2fr] grid-rows-[1fr] my-4 max-h-[900px]"
+      className="w-full md:grid md:grid-cols-[3fr_2fr] md:grid-rows-[1fr] md: my-4 md:max-h-[900px]"
       id="about-us"
     >
       <div className="w-full h-[80svh] max-h-[900px]">
